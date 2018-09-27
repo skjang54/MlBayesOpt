@@ -82,7 +82,7 @@ rf_opt <- function(train_data,
   }
 
   if (class(data_test_label) != "factor") {
-    testlabel <- as.factor(data_train_label)
+    testlabel <- as.factor(data_test_label)
   } else {
     testlabel <- data_test_label
   }
